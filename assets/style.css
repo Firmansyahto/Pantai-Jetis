@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Macondo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    font-family: 'Akshar', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background-image: linear-gradient(to right top, rgb(239, 211, 69), rgb(130, 149, 75));
+    padding: 5px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    color: white;
+    z-index: 9999;
+}
+
+nav a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+nav a:hover {
+    color: rgb(34, 34, 34);
+}
+
+.nav-link {
+    list-style: none;
+    text-align: left;
+    align-items: center;
+}
+
+.nav-link li {
+    display: inline;
+    margin: 0 30px;
+}
+
+.head1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg.jpg');
+    padding-top: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.header-cont {
+    font-family: 'Macondo', cursive;
+    font-size: 30px;
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+}
+
+.header-cont h2 {
+    font-family: 'Macondo', cursive;
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+.kotak {
+    outline: 3px solid #fff;
+    outline-offset: 5px;
+}
+
+.menu-button {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+/* halaman informasi */
+.judul1 {
+    margin-top: -30px;
+    padding-bottom: -10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info .row1 {
+    margin-top: 5px;
+}
+
+.column1 {
+    display: flex;
+    padding-top: 130px;
+    padding-left: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    float: left;
+}
+
+.jelas {
+    text-indent: 30px;
+}
+
+.akses {
+    text-indent: 30px;
+}
+
+.column2 {
+    display: flex;
+
+    padding-left: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    float: right;
+}
+
+.gambar {
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.column1 img {
+    margin-top: -90px;
+}
+
+.column2 img {
+    margin-top: -105px;
+}
+
+/* ------ h4 ------ */
+
+.inpo {
+    font-size: 25px;
+    color: #87c718;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.inpo2 {
+    font-size: 25px;
+    color: #87c718;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+
+.destination {
+    font-size: 25px;
+    color: #87c718;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.view {
+    font-size: 25px;
+    color: white;
+    margin: 20px auto;
+}
+
+/* ------------ */
+
+p {
+    color: black;
+}
+
+
+.garis1 {
+    width: 130px;
+    height: 5px;
+    background: #87c718;
+    margin: 5px auto;
+    border-radius: 7px;
+}
+
+
+/* halaman destinasi */
+.row2 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.judul2 {
+    margin-top: 30px;
+    padding-bottom: -10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.column3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    text-align: justify;
+}
+
+.column3 img {
+    transition: all 0.7s ease-out;
+    position: inherit;
+}
+
+.column3 img:hover {
+    transform: scale(1.2);
+}
+
+.column4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    text-align: justify;
+}
+
+.column4 img {
+    transition: all 0.7s ease-out;
+}
+
+.column4 img:hover {
+    transform: scale(1.2);
+}
+
+.column5 img {
+    transition: all 0.7s ease-out;
+}
+
+.column5 img:hover {
+    transform: scale(1.2);
+}
+
+.column5 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    text-align: justify;
+}
+
+.garis2 {
+    width: 350px;
+    height: 5px;
+    background: #87c718;
+    margin: 5px auto;
+    border-radius: 7px;
+}
+
+/* halaman review */
+
+.row3 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.judul3 {
+    margin-top: 30px;
+    padding-bottom: -10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.column6 {
+    width: 310px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    background-image: linear-gradient(to top, rgb(239, 211, 69), rgb(130, 149, 75));
+}
+
+.mancing {
+    font-family: 'Roboto Slab', serif;
+    padding-left: -5px;
+    margin-right: 5px;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.urut {
+    font-family: 'Roboto Slab', serif;
+    padding-left: -5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.jagal {
+    font-family: 'Roboto Slab', serif;
+    padding-left: -5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.column7 {
+    width: 310px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    background-image: linear-gradient(to top, rgb(239, 211, 69), rgb(130, 149, 75));
+}
+
+.urut p {
+    padding-left: -15px;
+    text-align: center;
+}
+
+.column8 {
+    width: 310px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px black;
+    background-image: linear-gradient(to top, rgb(239, 211, 69), rgb(130, 149, 75));
+}
+
+.column6 img {
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+
+}
+
+.column7 img {
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+
+}
+
+.column8 img {
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+
+}
+
+/* halaman profil */
+
+.row4 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.judul4 {
+    margin-top: 30px;
+    padding-bottom: -10px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.container-profil {
+    perspective: 800px;
+}
+
+.card-pic {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 150px;
+    height: 200px;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: transform 0.7s cubic-bezier(0.4, 0.3, 0.5, 0.9);
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    outline: 2px solid #ffffff;
+    outline-offset: 5px;
+    backface-visibility: hidden;
+}
+
+.card:nth-child(2),
+.card-pic:hover {
+    transform: rotate3d(1, 1, 0, 180deg);
+}
+
+table {
+    color: #fff;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 10px;
+    display: block;
+}
+
+.column9 {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    align-items: center;
+    text-align: justify;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px black;
+    background-image: linear-gradient(to bottom, rgb(239, 211, 69), rgb(130, 149, 75));
+}
+
+/* SOSMED */
+
+.icon {
+    display: inline-block;
+    font-size: 44px;
+    margin-top: 30px;
+    animation: float 5s ease-in-out infinite;
+}
+
+.ri-instagram-line {
+    padding-right: 10px;
+}
+
+.ri-facebook-circle-line {
+    padding-right: 10px;
+    animation-delay: 0.5s;
+}
+
+.ri-twitter-line {
+    animation-delay: 0.7s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* footer */
+footer {
+    padding: 10px;
+    background-image: linear-gradient(to right bottom, rgb(239, 211, 69), rgb(130, 149, 75));
+}
+
+.kaki {
+    font-size: 18px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.menu-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 850px) {
+
+    #beranda {
+        margin-top: -250px;
+    }
+
+    .konten {
+        width: 100%;
+    }
+
+    .menu-button {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .navbar {
+        padding: 0;
+        position: absolute;
+        justify-content: space-between;
+        margin-top: -60px;
+    }
+
+    .nav-link {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 70px;
+        margin: auto;
+        height: 100vh;
+        justify-content: center;
+        background-color: #353535;
+        margin-top: -800px;
+        transition: all 0.75s ease;
+    }
+
+    li {
+        font-size: 50px;
+    }
+
+    .mobile-menu {
+        margin-top: 0;
+    }
+
+    .kotak {
+        width: 80%;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+    h1,
+    h2 {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .head1 {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .garis2 {
+        width: 70%;
+    }
+
+    .destination {
+        font-size: 24px;
+        color: #87c718;
+        margin: 20px;
+        margin-top: 30px;
+    }
+
+    .column9 {
+        margin: 3px;
+    }
+
+    .column6,
+    .column7,
+    .column8 {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .row4 {
+        padding-bottom: 20px;
+    }
+
+    .head1,
+    .row1,
+    .row2,
+    .row3,
+    .row4 .column9 {
+        flex-direction: column;
+    }
+
+    .gambar {
+        max-width: 90%;
+    }
+
+    .column2 {
+        margin-top: 120px;
+    }
+
+    aside {
+        width: 100%;
+        padding: 0;
+
+    }
+}
+
+
+
+
+
+/* Rumus cf*/
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
